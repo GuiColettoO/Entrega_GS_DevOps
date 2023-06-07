@@ -1,0 +1,10 @@
+version: '3'
+services:
+  spring-boot-app:
+    build:
+      context: .C:\Users\REI DELAS\Desktop\Spring_java
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./target:/app/target
